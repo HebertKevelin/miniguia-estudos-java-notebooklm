@@ -20,7 +20,7 @@ O projeto pratico esta disponivel aqui: https://github.com/HebertKevelin/clinica
 
 
 
-Escolhi Java porque quero entender como sistemas reais sao organizados por dentro. O objetivo foi usar o NotebookLM para aprofundar os conceitos que apareceram durante o desenvolvimento do projeto, transformando duvidas reais em aprendizado documentado.
+Escolhi Java porque quero entender como sistemas reais sao organizados por dentro, o objetivo foi usar o NotebookLM para aprofundar os conceitos que apareceram durante o desenvolvimento do projeto, transformando duvidas reais em aprendizado documentado.
 
 
 
@@ -44,7 +44,7 @@ Escolhi Java porque quero entender como sistemas reais sao organizados por dentr
 
 
 
-Resposta do NotebookLM: A arquitetura MVC organiza o codigo em tres componentes. O Model gerencia os dados e a logica de negocio sem saber como serao exibidos. A View exibe os dados e envia comandos do usuario. O Controller atua como intermediario recebendo as entradas, processando as solicitacoes e decidindo qual View apresentar. Essa separacao facilita a manutencao pois permite alterar a interface sem modificar a logica de dados.
+Resposta do NotebookLM: A arquitetura MVC organiza o codigo em tres componentes, o model gerencia os dados e a logica de negocio sem saber como serao exibidos, a view exibe os dados e envia comandos do usuario. O Controller atua como intermediario recebendo as entradas, processando as solicitacoes e decidindo qual View apresentar. Essa separacao facilita a manutencao pois permite alterar a interface sem modificar a logica de dados.
 
 
 
@@ -60,11 +60,11 @@ Dificuldade: As fontes nao definiam MVC diretamente. O NotebookLM identificou o 
 
 
 
-Resposta do NotebookLM: Encapsulamento e a tecnica de esconder os detalhes internos de um objeto e proteger seus dados declarando variaveis como private e fornecendo metodos publicos getters e setters para acesso controlado. E importante porque garante seguranca e controle dos dados, protege contra alteracoes acidentais e facilita a manutencao sem quebrar o restante do sistema.
+Resposta do NotebookLM: Encapsulamento e a tecnica de esconder os detalhes internos de um objeto e proteger seus dados declarando variaveis como private e fornecendo metodos publicos getters e setters para acesso controlado, e importante porque garante seguranca e controle dos dados, protege contra alteracoes acidentais e facilita a manutencao sem quebrar o restante do sistema.
 
 
 
-Dificuldade: As fontes focavam em infraestrutura e o conceito nao estava descrito diretamente. Aprendi a reformular a pergunta para extrair o maximo da ferramenta mesmo quando a fonte nao cobre o tema de forma direta.
+Dificuldade: As fontes focavam em infraestrutura e o conceito nao estava descrito diretamente, aprendi a reformular a pergunta para extrair o maximo da ferramenta mesmo quando a fonte nao cobre o tema de forma direta.
 
 
 
@@ -76,11 +76,11 @@ Dificuldade: As fontes focavam em infraestrutura e o conceito nao estava descrit
 
 
 
-Resposta do NotebookLM: O Maven organiza o projeto atraves do arquivo POM que contem todas as configuracoes e dependencias. Utiliza um Layout de Diretorio Padrao que define onde cada tipo de arquivo deve ficar. Trabalha com convencoes e padroes de nomenclatura para simplificar a estrutura e usa repositorios para gerenciar bibliotecas externas.
+Resposta do NotebookLM: O Maven organiza o projeto atraves do arquivo POM que contem todas as configuracoes e dependencias, entendi que com convencoes e padroes de nomenclatura para simplificar a estrutura e usa repositorios para gerenciar bibliotecas externas é a forma que Maven aplica.
 
 
 
-Dificuldade: Antes desse estudo eu nao entendia porque o PATH do Maven precisava apontar para a pasta bin especificamente. Depois de estudar o layout padrao ficou claro que o Maven so funciona quando o sistema sabe exatamente onde estao seus executaveis.
+Dificuldade: Antes desse estudo eu nao entendia porque o PATH do Maven precisava apontar para a pasta bin especificamente, e depois de estudar o layout padrao ficou claro que o Maven so funciona quando o sistema sabe exatamente onde estao seus executaveis.
 
 
 
@@ -92,7 +92,7 @@ Dificuldade: Antes desse estudo eu nao entendia porque o PATH do Maven precisava
 
 
 
-Construi um sistema de agendamento de consultas medicas em Java que notifica pacientes quando faltam 15 ou 7 dias para a consulta. O sistema pergunta se confirmam a presenca e atualiza o status automaticamente. Toda a logica foi organizada seguindo a arquitetura MVC.
+Construi um sistema de agendamento de consultas medicas em Java que notifica pacientes quando faltam 15 ou 7 dias para a consulta, o sistema pergunta se confirmam a presenca e atualiza o status automaticamente. Toda a logica foi organizada seguindo a arquitetura MVC.
 
 
 
